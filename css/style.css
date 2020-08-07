@@ -1,0 +1,33 @@
+form.edu_form {
+    width:100%;
+    margin:0 auto;
+    display:block
+}
+
+form.edu_form input,
+form.edu_form textarea {
+    width:100%;
+    display:inline-block;
+    border:1px solid #000;
+    border-radius:0;
+    margin-bottom:10px;
+    font-size:17px;
+    padding: 10px;
+    color: #000
+}
+
+form.edu_form label {
+	font-size: 18px
+}
+
+form.edu_form input {
+    height:50px;
+}
+
+form.edu_form input.red_bordered {
+	border-color: #FF585D;
+}
+
+form.edu_form .edu_error_message {
+	color: #FF585D
+}
